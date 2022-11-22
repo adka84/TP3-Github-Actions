@@ -4,7 +4,7 @@ run-name: ${{ github.actor }} is testing out yarn
 on: [push]
 jobs: 
   build-and-test:
-  name: yarn test
+  name: yarn CI
   runs-on: ubuntu-latest
   defaults:
     run:
